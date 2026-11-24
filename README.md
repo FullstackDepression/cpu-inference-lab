@@ -1,4 +1,4 @@
-# llm-perf-lab
+# cpu-inference-lab
 
 How fast can a language model run on a 2-core Celeron with no GPU — and *why*
 exactly that fast. Every number here comes from a run on one machine, with the
@@ -46,9 +46,9 @@ can't say which of the two is the limit. Finding 2 looks at that.
 ### Reproduce
 
 ```bash
-sudo bench/perf-stat.sh ~/llm-models/Qwen3.5-2B-Q4_K_M.gguf
-sudo bench/perf-stat.sh ~/llm-models/gemma-4-E2B-it-Q4_K_M.gguf
-python3 bench/tensors.py ~/llm-models/gemma-4-E2B-it-Q4_K_M.gguf
+sudo bench/perf-stat.sh models/Qwen3.5-2B-Q4_K_M.gguf
+sudo bench/perf-stat.sh models/gemma-4-E2B-it-Q4_K_M.gguf
+python3 bench/tensors.py models/gemma-4-E2B-it-Q4_K_M.gguf
 ```
 
 ## Finding 2 — the second core helps prompt processing more than generation
