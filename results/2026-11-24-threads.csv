@@ -1,0 +1,5 @@
+model,threads,test,tok_s,stddev
+Qwen3.5-2B-Q4_K_M.gguf,1,pp128,24.04,0.20
+Qwen3.5-2B-Q4_K_M.gguf,1,tg64,6.02,0.05
+Qwen3.5-2B-Q4_K_M.gguf,2,pp128,37.11,4.30
+Qwen3.5-2B-Q4_K_M.gguf,2,tg64,7.85,0.55
