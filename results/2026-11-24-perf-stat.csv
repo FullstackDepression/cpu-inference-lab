@@ -1,0 +1,3 @@
+model,threads,tg_tok_s,cycles,instructions,cache_misses,file_gib
+Qwen3.5-2B-Q4_K_M.gguf,2,7.43,126108999354,276487907313,4152258288,1.18
+gemma-4-E2B-it-Q4_K_M.gguf,2,7.51,132314520371,322032625486,4128920602,2.88
